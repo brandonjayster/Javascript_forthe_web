@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Irock</title>
+
+</head>
+<body> <center>
+<img src="irock.png" id="rockimg" style="cursor: pointer;" onclick="touchrock();">
+<script type="text/javascript">
+  alert("Hello I am your pet rock");
+  function touchrock(){
+    var username= prompt("what is your name?");
+  if (username){
+    alert("Nice to meet you" + " " + username);
+    document.getElementById('rockimg').src= "irockhappy.png";
+  }
+  }
+</script>
+</center>
+<script type="text/javascript">
+  
+</script>
+<button onclick="document.getElementById('myImage').src='on.gif' ">Turn on light bulb</button>
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+  
+
+<button onclick="document.getElementById('myImage').src='off.gif'">Turn off the light</button>
+	
+</body>
+</html>
